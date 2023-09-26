@@ -29,7 +29,6 @@ import io.expo.android.database.sqlite.SQLiteClosable;
 public class CursorWindow extends SQLiteClosable {
 
     private static final int WINDOW_SIZE_KB = 10240;
-
     /** The cursor window size. resource xml file specifies the value in kB.
      * convert it to bytes here by multiplying with 1024.
      */
